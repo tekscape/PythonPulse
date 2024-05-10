@@ -7,7 +7,7 @@ def print_triangle(rows):
         # Number of spaces
         spaces = rows - i
         # Number of asterisks
-        asterisks = 2 * i - 1
+        asterisks = (2 * i) - 1
         # Printing spaces
         print(" " * spaces, end="")
         # Printing asterisks
@@ -22,7 +22,7 @@ def print_inverted_triangle(rows):
         # Number of spaces
         spaces = rows - i
         # Number of asterisks
-        asterisks = 2 * i - 1
+        asterisks = (2 * i) - 1
         # Printing spaces
         print(" " * spaces, end="")
         # Printing asterisks
